@@ -36,7 +36,7 @@ public class ProductController {
         model.addAttribute("login", login);
         Iterable<Product> products = productRepository.findAll();
         model.addAttribute("products", products);
-        return "home_page";
+        return "user_page";
     }
 
 
